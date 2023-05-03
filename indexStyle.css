@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    background: #0098d9;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #0f00b8;
+}
+
+a:hover {
+    color: black;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.sendFile {
+    width: auto;
+    height: auto;
+    background: #459DE5;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#btn {
+    width: auto;
+    height: auto;
+    background: #459DE5;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    margin: 10px;
+}
+
+#files {
+    display: none;
+}
+
+#chFile {
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn:hover {
+    color: black;
+}
+
+.sendFile:hover {
+    color: black;
+}
+
+#player {
+    width: 1000px;
+}
